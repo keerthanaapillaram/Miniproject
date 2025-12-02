@@ -1,28 +1,30 @@
 # ENDOSCAN-VLM: VISION–LANGUAGE MODEL FOR MULTIMODAL DETECTION OF ENDOMETRIOSIS USING MEDICAL IMAGES AND SYMPTOM DATA
+
 ## ABOUT:
 EndoScan-VLM is an AI-driven system designed for multimodal detection of endometriosis using medical imaging (MRI/Ultrasound) and patient symptom data. The system leverages a Vision–Language Model (VLM) to integrate visual and textual information, providing highly accurate and interpretable diagnostic predictions. By combining image features with clinical notes and symptom history, EndoScan-VLM aims to reduce diagnostic delays, support clinical decision-making, and improve patient outcomes in gynecology.
 
 ## FEATURES:
 
-*Multimodal Input: Processes both medical images and patient symptom data.
+* Multimodal Input: Processes both medical images and patient symptom data.
 
-*Vision Encoder: CNN-based extraction of lesion-specific image features.
+* Vision Encoder: CNN-based extraction of lesion-specific image features.
 
-*Language Encoder: Transformer-based NLP model (e.g., ClinicalBERT) for processing symptom and clinical text data.
+* Language Encoder: Transformer-based NLP model (e.g., ClinicalBERT) for processing symptom and clinical text data.
 
-*Multimodal Fusion: Cross-attention mechanism to combine visual and textual features.
+* Multimodal Fusion: Cross-attention mechanism to combine visual and textual features.
 
-*Interpretable Outputs: Provides lesion localization maps, confidence scores, and textual explanations.
+* Interpretable Outputs: Provides lesion localization maps, confidence scores, and textual explanations.
 
-*Real-time Processing: Optimized for timely analysis to support clinical workflows.
+* Real-time Processing: Optimized for timely analysis to support clinical workflows.
 
-*Privacy-Preserving: Designed with HIPAA/GDPR-compliant handling of sensitive patient data.
+* Privacy-Preserving: Designed with HIPAA/GDPR-compliant handling of sensitive patient data.
 
-*Evaluation Metrics: Sensitivity, specificity, AUC, and lesion localization accuracy.
+* Evaluation Metrics: Sensitivity, specificity, AUC, and lesion localization accuracy.
 
-*Extensible Framework: Can be adapted for other medical conditions and multimodal diagnostic tasks.
+* Extensible Framework: Can be adapted for other medical conditions and multimodal diagnostic tasks.
 
 ## REQUIREMENTS:
+
 Operating System:64-bit Windows 10 or Ubuntu (for deep learning framework compatibility)
 
 Development Environment:Python 3.6 or later
@@ -43,31 +45,31 @@ Additional Dependencies:OpenCV (for visualization or UI extensions),SHAP (option
 
 The EndoScan-VLM system consists of the following components:
 
-1.Vision Encoder:
+1. Vision Encoder:
 
 CNN-based feature extraction from medical images (MRI, Ultrasound)
 
 Captures lesion-specific patterns
 
-2.Language Encoder:
+2. Language Encoder:
 
 Transformer-based NLP model (e.g., ClinicalBERT)
 
 Processes patient symptoms, clinical notes, and medical history
 
-3.Multimodal Fusion Module:
+3. Multimodal Fusion Module:
 
 Combines image and text embeddings using cross-attention
 
 Learns cross-modal dependencies
 
-4.Prediction Module:
+4. Prediction Module:
 
 Classifies data into “Endometriosis Detected” or “No Endometriosis”
 
 Outputs confidence scores and interpretable visualizations
 
-5.Evaluation & Visualization:
+5. Evaluation & Visualization:
 
 Generates metrics: Accuracy, Sensitivity, Specificity, AUC
 
