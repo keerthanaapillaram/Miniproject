@@ -45,31 +45,31 @@ Additional Dependencies:OpenCV (for visualization or UI extensions),SHAP (option
 
 The EndoScan-VLM system consists of the following components:
 
-1. Vision Encoder:
+1.Vision Encoder:
 
 CNN-based feature extraction from medical images (MRI, Ultrasound)
 
 Captures lesion-specific patterns
 
-2. Language Encoder:
+2.Language Encoder:
 
 Transformer-based NLP model (e.g., ClinicalBERT)
 
 Processes patient symptoms, clinical notes, and medical history
 
-3. Multimodal Fusion Module:
+3.Multimodal Fusion Module:
 
 Combines image and text embeddings using cross-attention
 
 Learns cross-modal dependencies
 
-4. Prediction Module:
+4.Prediction Module:
 
 Classifies data into “Endometriosis Detected” or “No Endometriosis”
 
 Outputs confidence scores and interpretable visualizations
 
-5. Evaluation & Visualization:
+5.Evaluation & Visualization:
 
 Generates metrics: Accuracy, Sensitivity, Specificity, AUC
 
